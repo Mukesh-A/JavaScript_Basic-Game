@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="challange/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"> 
+    <title> Javascript</title>
+</head>
+<body>
+    <div class="container my-3">
+        <h2 class="my-3">Challange 1 :your age in Days </h2>
+            <div class="flex-box-container my-3">
+                <div>
+            <button class="btn btn-primary" onclick="ageInDate()">click me</button>
+                </div>
+            <div>
+            <button class="btn btn-danger" onclick="reset()">Reset</button>
+        </div>
+        
+        </div>
+        <div class="flex-box-container-1">
+            <div id="flex-box-result">
+               
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Challage 2</h2>
+        <button class="btn btn-success" onclick="generateCat()">GENERATE A CAT</button>
+
+        <div class="flex-box-container-2" id="catdiv">
+            <!-- <img src="" alt=""width="200" height="200"> -->
+
+
+        </div>
+    </div>
+    <div class="container my-3">
+        <h2>Challage 3</h2>
+        <div id="flex-box">
+            <img src="rock.png" alt="" id="rock" height="120px" width="100px" onclick="rpc(this)">
+            <img src="paper.png" alt="" id="paper" height="120px" width="100px"onclick="rpc(this)">
+            <img src="sicc.png" alt="" id="sicc" height="120px" width="100px"onclick="rpc(this)">
+
+        </div>
+
+
+        <button class="btn btn-primary my-3" onclick="location.reload();">PLAY AGAIN</button>
+    </div>
+
+
+    <script src="firstclass.js"></script>
+</body>
+</html>
